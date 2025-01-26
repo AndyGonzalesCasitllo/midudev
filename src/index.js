@@ -86,3 +86,6 @@ const generateYoutubeHTML = ({ title, videoId }) => `
 
   await fs.writeFile('README.md', newMarkdown)
 })()
+
+
+console.log('Done!' + new Date())
